@@ -88,9 +88,9 @@ def main():
                 enter = browser.find_element_by_css_selector(login_btn_selector) #Finds Selector
                 Sel_user.send_keys(username)
                 Sel_pas.send_keys(line)
-                print '------------------------'
+                print ('------------------------')
                 print (color.GREEN + 'Tried password: '+color.RED + line + color.GREEN + 'for user: '+color.RED+ username)
-                print '------------------------'
+                print ('------------------------')
         except KeyboardInterrupt: #returns to main menu if ctrl C is used
             exit()
 
